@@ -47,7 +47,7 @@ namespace SaleHouse.Windows
             Filter();
         }
 
-        public void Filter()
+        public void Filter() // Плохая фильтрация, но тоже сойдёт
         {
             houses = Context._con.House.ToList();
             if (AddressCB.SelectedIndex >= 0)
