@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b4dfdfdca54a4a8ca41613ed4ae31346" Name="Diagram1">
+        <EntityTypeShape EntityType="SaleHouseModel.Apartment" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SaleHouseModel.BuildStatus" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SaleHouseModel.City" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SaleHouseModel.House" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SaleHouseModel.HouseComplex" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SaleHouseModel.SaleStatus" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SaleHouseModel.Street" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SaleHouseModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="SaleHouseModel.FK_Apartment_House" ManuallyRouted="false" />
+        <AssociationConnector Association="SaleHouseModel.FK_Apartment_SaleStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="SaleHouseModel.FK_HouseComplex_BuildStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="SaleHouseModel.FK_HouseComplex_City" ManuallyRouted="false" />
+        <AssociationConnector Association="SaleHouseModel.FK_House_HouseComplex" ManuallyRouted="false" />
+        <AssociationConnector Association="SaleHouseModel.FK_House_Street" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
